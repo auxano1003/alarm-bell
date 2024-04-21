@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+    font-family: sans-serif;
+}
+section{
+    background-color: whitesmoke;
+    width: 40%;
+    padding: 10px 0;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 20px;
+}
+#displayTime{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+}
+#displayTime p{
+    background-color: white;
+    box-shadow: 1px 1px 7px black;
+    padding: 10px 20px;
+}
+h2{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 10px;
+}
+#selectTimeOne, #selectTimeTwo{
+    padding: 10px;
+    outline: none;
+}
+#buttonDiv{
+    margin: 20px;
+}
+button{
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+#sectionTwo button{
+    background-color: green;
+}
+#sectionThree{
+    padding: 0;
+}
+#alarmDiv{
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 1px 1px 7px;
+}
+
+
+@media (max-width: 600px) {
+    section{
+        width: 90%;
+    }
+}
