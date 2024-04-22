@@ -90,6 +90,7 @@ checkAlarm = (currentTime) => {
     });
 };
 
+
 stopAlarm = () => {
     alarmSound.pause()
 }
